@@ -19,6 +19,8 @@
   width: auto;
   background-color: rgb(223, 136, 136);
   padding: 16px;
+
+  
   align-items: center;
   justify-content: space-around;
 }
