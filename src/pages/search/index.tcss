@@ -1,0 +1,99 @@
+:root {
+  --control-width: 90px;
+  --cart-size: 24px;
+}
+
+.wrap {
+	position: relative;
+}
+.button {
+  position: fixed;
+  height: 80%;
+  width: 80%;
+  
+}
+
+.top-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.cart {
+  width: var(--cart-size);
+  height: var(--cart-size);
+  position: absolute;
+  top: calc(var(--tf-status-bar-height) + 15px);
+  right: calc(var(--control-width) + 8px);
+}
+
+.fix-search .top-header {
+	background: #fff;
+}
+
+.search {
+	position: absolute;
+  background: #017fff;
+	top: calc(var(--tf-status-bar-height) + 48px);
+	left: 0;
+	right: 0;
+  padding: 8px 16px;
+}
+
+.fix-search .search {
+	background: #fff;
+  border-bottom: solid 1px #ccc;
+}
+
+.search .input {
+  width: 100%;
+	transition: width 0.2s;
+  display: block;
+}
+
+.fix-search .search {
+	position: fixed;
+  padding-top: calc(var(--tf-status-bar-height) + 5px);
+  top: 0;
+}
+
+.fix-search .search input {
+	width: calc(100% - var(--control-width) - var(--cart-size));
+}
+
+.top {
+  padding-top: calc(var(--tf-status-bar-height));
+  background: #017fff;
+}
+
+.top-content {
+	width: 100%;
+	height: 90px;
+  background: #017fff;
+	margin: 0 auto;
+}
+
+.greeting {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 16px;
+  margin-top: 12px;
+}
+
+.content {
+	padding: 8px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.content view {
+	width: calc(50% - 16px);
+	height: 80px;
+	background: #ccc;
+	margin: 8px;
+}
+ 

@@ -1,0 +1,8 @@
+{
+  "name": "newtest",
+  "version": "0.1.0",
+  "tiki": {
+    "appIdentifier": "vn.tiki.miniapp.testerapp",
+    "buildNumber": 1
+  }
+}

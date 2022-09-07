@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/blank/index",
+    "pages/search/index"
+  ],
+  "window": {
+    "defaultTitle": "My App"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  }
+  
+}
